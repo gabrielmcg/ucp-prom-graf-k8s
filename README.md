@@ -19,6 +19,11 @@ prometheus|   NodePort|    10.96.150.101|   <none>|        9090:33629/TCP|   16h
 
 http://hpe2-ucp01.am2.cloudra.local:33629
 
+![UCP Metrics](ucp-metrics.png)
+
+
+
+
 
 ## Deploy Grafana
  
