@@ -3,7 +3,7 @@
 See https://docs.docker.com/ee/ucp/admin/configure/collect-cluster-metrics/#configure-external-prometheus-to-scrape-metrics-from-ucp
 
 
-#deploy Prometheus
+## Deploy Prometheus
 kubectl apply -f prom_configmap.yml
 
 kubectl apply -f prom_deployment.yml
@@ -20,7 +20,7 @@ prometheus|   NodePort|    10.96.150.101|   <none>|        9090:33629/TCP|   16h
 http://hpe2-ucp01.am2.cloudra.local:33629
 
 
-#Deploy Grafana
+## Deploy Grafana
  
 kubectl apply -f graf_deployment.yml
 
@@ -38,7 +38,7 @@ grafana|      NodePort|    10.96.227.55|    <none>|        3000:35490/TCP|   1h|
 http://hpe2-ucp01.am2.cloudra.local:35490
 
 
-#configure Grafana
+## Configure Grafana
 
 Create prometheus datasource
 http://prometheus:9090 
