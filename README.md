@@ -11,7 +11,8 @@ kubectl get services
 
 # kubectl get services
 
-NAME|         TYPE|        CLUSTER-IP|      EXTERNAL-IP|   PORT(S)|          AGE|
+NAME|                TYPE|        CLUSTER-IP|      EXTERNAL-IP|   PORT(S)       |          AGE|
+| ------------- |:-------------|:----------------|:------------|:--------------|:-------------|
 prometheus|   NodePort|    10.96.150.101|   <none>|        9090:33629/TCP|   16h|
 
 http://hpe2-ucp01.am2.cloudra.local:33629
